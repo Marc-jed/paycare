@@ -19,7 +19,7 @@ def test_extract_data():
     # Test du message d'erreur
     df = extract_data("non_existent_file.csv")
     assert df is None
-
+    print("✅ Test extract data OK !")
 
 # def test_transform_data():
 #     df = pd.DataFrame({
