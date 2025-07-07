@@ -9,3 +9,5 @@ COPY . /app
 
 # Install the Python dependencies
 RUN pip install -r requirements.txt
+
+CMD ["python", "tests/test.py"]
