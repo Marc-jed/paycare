@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from etl import extract_data, transform_data, load_data
+from app.etl import extract_data, transform_data, load_data
 
 
 
